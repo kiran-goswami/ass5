@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    background-image: url(./images/sky.jpg);
+    overflow: hidden;
+}
+.text{
+    background-color: orange;
+    position: relative;
+    left:350px;
+    width:170px;
+    height:60px;
+    font-size:50px;
+    text-align: center;
+}
+.text1{
+
+    background-color:white;
+    position: relative;
+    left:530px;
+    top:-59px;
+    width:380px;
+    height:60px;
+    font-size:50px;
+    text-align: center;
+}
+.text3{
+    background-color:green;
+    position: relative;
+    left:920px;
+    top:-120px;
+    width:200px;
+    height:60px;
+    font-size:50px;
+    text-align: center;
+}
+.city{
+    background-image: url(./images/city.png);
+    background-repeat: repeat-x;
+    width:1000%;
+    height:250px;
+    position: absolute;
+    top:160px;
+    margin-top: 50px;
+    animation-name: kiran;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.road{
+    background-image: url(./images/road.jpg);
+    background-repeat: repeat-x;
+    width:2000%;
+    height:1000px;
+    position: absolute;
+    top:150px;
+    margin-top: 300px;
+    animation-name: kiran;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.jum{
+    position: fixed;
+    top:440px;
+    z-index: 5;
+    left:957px;
+    height:50px;
+    width:50px;
+    animation-name: kiran1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.jum{
+    height:70px;
+    width:70px;
+}
+
+.gum{
+    position: absolute;
+    z-index: 5;
+    top:440px;
+    left:715px;
+    height:50px;
+    width:50px;
+    animation-name: kiran1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.gum{
+    
+    height:70px;
+    width:70px;
+}
+@keyframes kiran {
+    from{
+        position: absolute;
+        left:0px;
+    }
+    to{
+        position: absolute;
+        left:-200px;
+
+    }
+}
+@keyframes kiran1 {
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.yellow{
+    z-index: 5;
+    position: relative;
+    top:170px;
+    left:680px;
+    height:50px;
+    width:50px;
+}
+.name{
+    height:180px;
+    width:400px;
+}
+.flag{
+    position: absolute;
+    left: 920px;
+    top:330px;
+}
+.flag1{
+    height:100px;
+    width:150px;
+}
+.sun1{
+    position: absolute;
+    right: 100px;
+    top:50px;
+    animation-name: kiran2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.sun1{
+    height:150px;
+    width:150px;
+}
+@keyframes kiran2 {
+    from{
+        position: absolute;
+        right:20px;
+    }
+    to{
+        position: absolute;
+        right:300px;
+
+    }
+}

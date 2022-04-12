@@ -1,0 +1,91 @@
+ html{
+    background-color: yellow;
+ }
+
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.parent{
+    text-align: center;
+}
+.p1{
+    width:100px;
+    height:100px;
+    background-color: green;
+    display:inline-block;
+    
+}
+.p1:hover{
+    height:100px;
+    width:300px;
+}
+.p2{
+    width:100px;
+    height:100px;
+    background-color: green;
+    margin-top: 20px;
+    display:inline-block;
+    
+}
+.p2:hover{
+    height:250px;
+    width:250px;
+}
+.p3{
+    height:100px;
+    width:100px;
+    background-color: green;
+    margin-top: 20px;
+    display:inline-block;
+}
+.p3:hover{
+    width:300px;
+}
+.p4{
+    height:100px;
+    width:100px;
+    background-color: green;
+    margin-top: 20px;
+    display:inline-block;
+}
+.p4:hover{
+    width:300px;
+}
+.p5{
+    height:100px;
+    width:100px;
+    background-color: green;
+    margin-top: 20px;
+    display:inline-block;
+    }
+.p5:hover{
+width:300px;
+}
+.p6{
+    height:100px;
+    width:100px;
+    background-color: green;
+    margin-top: 20px;
+    display: inline-block;
+}
+.p6:hover{
+    width:350px;
+}
+.p7{
+    height:100px;
+    width:100px;
+    background-color: green;
+    margin-top: 20px;
+    display: inline-block;
+}
+.p7:hover{
+width:300px;
+}
+.text{
+    text-align: center;
+}
+.text1
+{
+    text-align:center;
+}
